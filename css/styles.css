@@ -9,8 +9,7 @@ html{
     font-size: 62.5%;
 }
 
-
-body{
+body {
     background-image: linear-gradient(to right, #75edff, #56cfed, #3cb0d9, #2992c4, #2075ac);
     display: flex;
     align-items: center;
@@ -31,7 +30,7 @@ body{
     
 }
 
-.number{
+.number {
     font-size: 3rem;
     position: absolute;
     width: 100%;
@@ -43,44 +42,44 @@ body{
     color: #0d2585;
 }
 
-.number1{
+.number1 {
     --rotation: 30deg;
 }
-.number2{
+.number2 {
     --rotation: 60deg;
 }
-.number3{
+.number3 {
     --rotation: 90deg;
 }
-.number4{
+.number4 {
     --rotation: 120deg;
 }
-.number5{
+.number5 {
     --rotation: 150deg;
 }
-.number6{
+.number6 {
     --rotation: 180deg;
 }
-.number7{
+.number7 {
     --rotation: 210deg;
 }
-.number8{
+.number8 {
     --rotation: 240deg;
 }
-.number9{
+.number9 {
     --rotation: 270deg;
 }
-.number10{
+.number10 {
     --rotation: 300deg;
 }
-.number11{
+.number11 {
     --rotation: 330deg;
 }
-.number12{
+.number12 {
     --rotation: 360deg;
 }
 
-.clock::after{
+.clock::after {
     content:"";
     position: absolute;
     background-color: black;
@@ -91,10 +90,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-
 }
 
-.hand{
+.hand {
     --rotation: 0;
     position: absolute;
     bottom: 50%;
@@ -108,19 +106,19 @@ body{
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
-.second{
+.second {
     width: .3rem;
     height: 30%;
     background-color: red;
 }
 
-.minute{
+.minute {
     width: .7rem;
     height: 40%;
     background-color: black;
 }
 
-.hour{
+.hour {
     width: 1rem;
     height: 30%;
     background-color: black;
