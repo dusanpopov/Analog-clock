@@ -16,7 +16,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     overflow: hidden;
-
 }
 
 .clock{
@@ -26,8 +25,7 @@ body {
     background-color: rgba(255,255,255,0.7);
     border-radius: 50%;
     border: .2rem solid black;
-    position: relative;
-    
+    position: relative;  
 }
 
 .number {
