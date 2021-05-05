@@ -17,8 +17,6 @@ const setClock = () => {
   setRotation(hourHand, hoursRatio);
 }
 
-
-
 setClock();
 setInterval(setClock, 1000);
 
